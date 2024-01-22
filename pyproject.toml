@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "auto-cut-vlog-videos"
+version = "0.1.0"
+description = ""
+authors = ["Christian Camacho <chris.ca.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+unsilence = "^1.0.9"
+setuptools = "^69.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
